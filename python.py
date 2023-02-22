@@ -29,4 +29,11 @@ def led_display(num):
         print('')
         i += 1
 
-led_display(7598656447)
+
+
+def fun(a,b):
+    return a+b
+
+test = fun(182749, 23123)
+
+led_display(test)
