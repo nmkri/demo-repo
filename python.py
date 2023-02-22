@@ -31,9 +31,9 @@ def led_display(num):
 
 
 
-def fun(a,b):
-    return a+b
+def fun(a,b,c):
+    return a+b+c
 
-test = fun(182749, 23123)
+test = fun(182749, 23123, 6733)
 
 led_display(test)
